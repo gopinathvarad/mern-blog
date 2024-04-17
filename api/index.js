@@ -1,4 +1,16 @@
 import express from 'express';
+import mongoose from 'mongoose';
+import path from 'path';
+import dotenv from 'dotenv';
+
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
+
+mongoose
+.connect(process.env.MONGO)
+.then(() => {
+    console.log("MongoDb is connected");
+});
 
 const app = express();
 
