@@ -20,7 +20,7 @@ The server or backend code uses Node.js. Follow the steps below to get the serve
 4. `node index.js`
 
 # Description about the project
-Advanced MERN Blog Project
+
 I developed an advanced blogging platform using the MERN stack, showcasing my proficiency in full-stack development with React.js, Express, Node.js, and MongoDB, as well as state management with React Redux. This project features a comprehensive blog management system, allowing admin to create, edit, and delete blogs categorized under various topics. Users can search for blogs by category and keyword, and sort them from oldest to newest.
 
 The platform includes robust admin capabilities, giving administrators full control over the blog site. Admins can access metrics such as the number of likes per blog and the total user count, and they have the ability to manage user activities and moderate content. This ensures a well-maintained and user-friendly environment.
